@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width:device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+       h2 {
+  animation-duration: 5s;
+  animation-name: slidein;
+           overflow: hidden;
+           animation-iteration-count: infinite;
+}
+
+/@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;  
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    
+    <h1 style="text-align:center, font-size:70px;">bootstrap container</h1>
+   <br><br>
+<div class="container">
+<h1>THIS IS SIMPLE CONTAINER</h1>
+    <P>SIMPLE CONTAINER</P>
+    </div>
+    
+    <div class="container p-3 my-3 border">
+    <h1>THIS IS AFGAIN CONTAINER</h1>
+    <p> <strong>this is again container but having cool border</strong></p>
+    </div>
+    
+    
+    <div class="container p-3 my-3 bg-dark text-white">
+    <h1>again container</h1>
+    <p>this is also container but having background color dark and text color white</p>
+    </div>
+    <br><br><br>
+    
+    
+    <!--....................................................................................-->
+    <!-- grid system-->
+    <h1 style="text-align: center">grid system-</h1><br>
+    <div class="row" style="margin-left: 50px;margin-right: 50px;">
+    <div class="col" style="background-color: darkslategray; padding: 5px;">.col</div>
+    <div class="col" style="background-color: dimgray; padding: 5px;">.col</div>
+    <div class="col" style="background-color:darkslategray; padding: 5px;">.col</div>
+    </div>
+    
+    <br><br>
+    <div class="row" style="margin-left: 50px;margin-right: 50px;">
+    <div class="col" style="background-color: darkslategray; padding: 5px;">.col</div>
+    <div class="col" style="background-color: dimgray; padding: 5px;">.col</div>
+    <div class="col" style="background-color:darkslategray; padding: 5px;">.col</div>
+            <div class="col" style="background-color: dimgray; padding: 5px;">.col</div>
+            <div class="col" style="background-color:darkslategray; padding: 5px;">.col</div>
+    </div><br><br>
+    
+    
+    <!--....................................................................................-->
+    
+    <!-- to adjust size of perticular column-->
+    <h1 style="text-align: center">column having different width</h1><br>
+    <div class="row" style="margin-left: 50px;margin-right: 50px;">
+    <div class="col-sm-4" style="border: 2px solid gray;">.col</div>
+    <div class="col-sm-8" style="border: 2px solid gray;">.col</div>
+    </div><br>
+    
+     <div class="row" style="margin-left: 50px;margin-right: 50px;">
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+             <div class="col-sm-1" style="border: 2px solid gray;">.col</div>
+
+    </div><br><br>
+    <!--....................................................................................-->
+    
+       <!-- this is about blockquote -footer and -kbd-->
+    <h1 style="text-align: center">BLOCKQUOTE-</h1>
+    <blockquote class="blockquote" style="text-align: center">
+    <p>the legends known's by their profession not by their names this is my experience</p>
+        <footer class="blockquote-footer">By BHUSHAN RAIPURKAR</footer>
+    </blockquote>
+    
+    <div class="container p-3 my-3 border">
+    <h1 style="text-align: center">kbd style in font</h1>
+    <br>
+    <p style="text-align: center">to save any file <kbd>ctrl + s</kbd>and for copy <kbd>ctrl + c</kbd>and for paste<kbd>ctrl + v</kbd></p>
+    </div>
+    
+    
+    
+    <!--....................................................................................-->
+    <!--table with striped-->
+    
+    <div class="container p-3 my-3 border">
+        <h1>table with striped</h1>
+   <table class="table table-striped">
+        <thead>
+       <tr>
+            <th>name</th>
+           <th>age</th>
+           <th>enmail</th>
+            </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>BHUSAHN RAIPURKAR</td>
+           <td>19</td>
+           <td>bhushanraipurkar10@gmail.com</td>
+           </tr>
+           <tr>
+           <td>ABHISHEK KOTANGLE</td>
+               <td>19</td>
+               <td>abhishekkotangle@gmail.com</td>
+           </tr>
+            <tr>
+           <td>MEHUL DHUPARE</td>
+               <td>19</td>
+               <td>mehuldhupare@gmail.com</td>
+           </tr>
+       </tbody>
+        </table>
+        
+        <br>
+        <br><h1>table with hover</h1>
+        <table class="table table-hover">
+        <thead>
+       <tr>
+            <th>name</th>
+           <th>age</th>
+           <th>enmail</th>
+            </tr>
+       </thead>
+       <tbody>
+       <tr>
+           <td>BHUSAHN RAIPURKAR</td>
+           <td>19</td>
+           <td>bhushanraipurkar10@gmail.com</td>
+           </tr>
+           <tr>
+           <td>ABHISHEK KOTANGLE</td>
+               <td>19</td>
+               <td>abhishekkotangle@gmail.com</td>
+           </tr>
+            <tr>
+           <td>MEHUL DHUPARE</td>
+               <td>19</td>
+               <td>mehuldhupare@gmail.com</td>
+           </tr>
+       </tbody>
+        </table>
+        <footer class="blockquote-footer" style="text-align: end">you can simply add <kbd>table</kbd> in class for simple table with normal padding</footer>
+    </div>
+    
+    
+  <!--....................................................................................-->  
+    
+    
+    <!-- this is about cool alert box which gives you information,danger massage etc-->
+    <div class="container p-3 my-3 border">
+    <div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>SUCCESS!</strong> you can go now.
+        </div>
+        
+        
+        <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>WARNING!</strong> something went wrong please try again again.
+        </div>
+        
+        
+        <div class="alert alert-info alert-dismissable fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>BE AWARE!</strong> do not try to do this again.<a href="#"> click me</a>
+        </div>
+    </div>
+    
+    <!--....................................................................................-->
+    
+    <!-- about buttons -->
+    <div class="container p-3 my-3 border">
+    <h3 style="text-align: center">simple buttons with hover effect</h3>
+    <button type="button" class="btn btn-success"><b>success</b></button>
+    <button type="button" class="btn btn-info" disabled><b>disabled button</b></button>
+    <button type="button" class="btn btn-dark"><b>dark</b></button>
+        
+        <button class="btn btn-primary">
+  <span class="spinner-border spinner-border-sm"></span>
+  Loading..
+</button>
+    </div>
+    
+    
+    <!--....................................................................................-->
+    
+    <div class="container p-3 my-3 border">
+    <div class="spinner-border"></div>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div>
+        
+        <h1 style="text-align: center">simple button with cool effect</h1>
+        <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+        
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading...
+        </button>
+        
+    </div>
+    
+    
+    <!--....................................................................................-->
+    
+    <!--this is pagination-->
+    
+    <div class="container p-3 my-3 border">
+        <h3 style="text-align: center">this is the PAGINATION</h3><br><br>
+    <ul class="pagination justify-content-center" style="margin: 20px 0" >
+        <li class="page-item disabled"><a class="page-link" href="#">previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">next</a></li>
+        
+        </ul>
+        
+        
+        
+        <h5>pagination having large size</h5><br>
+        <ul class="pagination pagination-lg" >
+        <li class="page-item disabled"><a class="page-link" href="#">previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">next</a></li>
+        
+        </ul>
+        
+        <h5>pagination having  small size</h5><br>
+        <ul class="pagination pagination-sm" >
+        <li class="page-item disabled"><a class="page-link" href="#">previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">next</a></li>
+        
+        </ul>
+      
+    </div>
+    
+    <!--....................................................................................-->
+    
+    
+    <div class="container p-3 my-3 bg-dark text-white">
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action list-group-item-success">first link</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">second link</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">third link</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">fourth link</a>
+        
+        </div>
+        
+    </div>
+    
+    
+   <div class="container">
+    
+       <div class="card-deck">
+           
+       <div class="card bg-light">
+         <div class="card-body text-center">
+           <p class="card-text">Some text inside the first card actually i want to mke website for my earning as well as   my improving skills for myself <br>
+             and this website will help others <br>for improving their skills others</p>
+         </div>
+       </div>        
+        
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <p class="card-text">inside the card</p>
+      </div>
+    </div>
+        
+        
+    <div class="card bg-light">
+       <div class="card-body text-center">
+         <p class="card-text">inside the card</p>
+       </div>
+    </div>
+        
+        
+    <div class="card bg-light">
+       <div class="card-body text-center">
+         <p class="card-text">inside the card</p>
+       </div>
+    </div>
+    </div>
+  </div>
+    
+    
+    <!--....................................................................................-->
+    
+    
+    <div class="container p-3 my-3 bg-dark text-white">
+    <h3 style="text-align:center">DROPDOWN MENU: </h3>
+        <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            click..
+            </button>
+            <div class="dropdown-menu">
+           <a href="#" class="dropdown-item">link 1</a>
+           <a href="#" class="dropdown-item">link 2</a>
+           <a href="#" class="dropdown-item">link 3</a>
+           <a href="#" class="dropdown-item">link 4</a>
+            <div class="dropdown-header">second-type</div>
+                <a href="#" class="dropdown-item">link 1-a</a>
+                <a href="#" class="dropdown-item">link 1-b</a>
+                <a href="#" class="dropdown-item">link 1-c</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+  <!--....................................................................................-->  
+    
+    
+    <!--advanced type of dropdown-->
+    <h2 style="text-align: center">another type of dropdown or advanced type: </h2>
+    <br><br>
+    <div class="container" style="text-align: center">
+    <div class="btn-group">
+        <button type="button" class="btn btn-dark">c++</button>
+        <button type="button" class="btn btn-dark">java</button>
+        
+    <div class="btn-group">
+        <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">more...</button>
+        <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">ruby</a>
+        <a href="#" class="dropdown-item">kotlin</a>
+        <a href="#" class="dropdown-item">python</a>
+        </div>
+        
+        </div>
+        </div>
+    </div><br><br><br><br>
+    
+    
+    <!--......................................................................................-->
+    
+    <div class="container p-3 my-3 border">
+    <form class="was-validated">
+        <div class="form-group">
+        <label for="uname">username</label>
+            <input type="text" placeholder="user name" name="uname" class="form-control" required>
+            <div class="valid-feedback">valid</div>
+            <div class="invalid-feedback">this is not valid</div>
+            
+            <label for="uname">password:</label>
+            <input type="password" placeholder="password" name="uname" class="form-control" required>
+            <div class="valid-feedback">ok</div>
+            <div class="invalid-feedback">this must be fill</div>
+        </div>
+        <button class="btn btn-primary">submit</button>
+        
+        <!--this is input group property-->
+        
+        <div class="input-group mb-3">
+            <div class="input-group append">
+              <input type="text" class="form-control">
+            <span class="input-group-text">@gmail.com</span>
+            </div>
+        </div>
+        </form>
+        <br>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text"> @ </span>
+            </div>
+              <input type="text" class="form-control">
+            
+        </div>
+    </div>
+    
+    
+    <!--..........................................................................................-->
+    
+    <div class="container p-3 my-3 border">
+    <form class="was-validated">
+        <div class="form-group">
+        <label for="uname">username</label>
+            <input type="text" placeholder="user name" name="uname" class="form-control" required>
+            <div class="valid-feedback">ok!</div>
+            <div class="invalid-feedback">please fill in this feild</div>
+        
+        
+        <label for="uname">your number :</label>
+        <input type="number" class="form-control" placeholder="your name" name="uname" required>
+        
+           
+        
+        
+        <label for="uname">set password :</label>
+        <input type="password" class="form-control" placeholder="your name" name="uname" required>
+        <br>
+            <div class="custom-file">
+            <input type="file" class="custom-file-input">
+                <label class="custom-file-label" for="customFile">choose</label>
+            </div>
+        
+        <div class="custom-control custom-checbox">
+        <input type="checkbox" class="custom-control-checkbox" name="checkbox">
+            <label>*i have read all terms and condition</label>
+        </div>
+        </div>
+        
+        
+        </form>
+    </div>
+    
+    <!--............................................................................................-->
+    
+    <div class="container p-3 my-3 border">
+    <button class="btn btn-success" data-toggle="tooltip" title="samaz raha hai n?" style="margin-left:30%;">click</button>
+        <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+       <div class="container">
+  <h3>Popover Example</h3>
+  <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+    </div>
+    
+        <!--............................................................................................-->
+
+    <div class="container">
+    <div class="toast">
+        <div class="toast-header">
+        toast header
+        </div>
+        <div class="toast-body">
+        this is toast body
+        </div>
+        </div>
+    
+    
+    <script>
+    $(document).ready(function(){
+    $('.toast').toast('show');
+    });
+    </script>
+    </div>
+    </body>
+
+</html>
